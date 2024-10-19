@@ -11,6 +11,7 @@ import AddTask from "./pages/user/AddTask";
 import EditTask from "./pages/user/EditTask";
 import GuestRoute from "./routes/GuestRoute";
 import About from "./pages/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -41,8 +42,8 @@ function App() {
               </Route>
             </Routes>
           </div>
-
         </div>
+        <Footer />
       </BrowserRouter>
     </>
   );
